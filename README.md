@@ -1,5 +1,9 @@
 ## DrinkIT
 
+
+
+## Updating to New Releases
+
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
@@ -14,8 +18,6 @@
 - [Displaying Lint Output in the Editor](#displaying-lint-output-in-the-editor)
 - [Debugging in the Editor](#debugging-in-the-editor)
 - [Formatting Code Automatically](#formatting-code-automatically)
-
-## Updating to New Releases
 
 Create React App is divided into two packages:
 

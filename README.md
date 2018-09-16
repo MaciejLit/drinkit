@@ -1,23 +1,14 @@
 ## DrinkIT
 
+You need recipt of your favorite drink? This application will do it for you! Give the ingredients that you have in the fridge or name (can be part of it) of your favorite drink. Application will show you a list of alcohols with every detail!
 
 
-## Updating to New Releases
+## Technologies used
 
-- [Updating to New Releases](#updating-to-new-releases)
-- [Sending Feedback](#sending-feedback)
+- [Application is write in React.js from 0 to 100]
+- [](#sending-feedback)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
-  - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
-- [Supported Browsers](#supported-browsers)
-- [Supported Language Features and Polyfills](#supported-language-features-and-polyfills)
-- [Syntax Highlighting in the Editor](#syntax-highlighting-in-the-editor)
-- [Displaying Lint Output in the Editor](#displaying-lint-output-in-the-editor)
-- [Debugging in the Editor](#debugging-in-the-editor)
-- [Formatting Code Automatically](#formatting-code-automatically)
 
 Create React App is divided into two packages:
 

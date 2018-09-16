@@ -1,0 +1,112 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(161,163,167,1) 35%, rgba(161,163,167,1) 65%, rgba(255,255,255,1) 100%);
+}
+.search__title {
+  color: #2e2e2e;
+  align-self: center;
+  text-align: center;
+  font-size: 24px;
+  max-width: 380px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-weight: bold;
+}
+.main__card {
+  margin-top: 15px;
+  background-color: #eeeeee;
+  min-height: 175px;
+  border: 1px solid black;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 50px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 50px -3px rgba(0,0,0,1);
+    box-shadow: 0px 0px 50px -3px rgba(0,0,0,1);
+    transition: 1s;
+  }&:not(:hover){
+     transition: 1s;
+     }
+
+}
+.main__card-body {
+  display: flex;
+  flex-direction: column;
+  align-self: left;
+}
+.main__card-body-div {
+  align-self: center;
+}
+.main__image {
+  border-radius: 25%;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 25px;
+  right: 25px;
+}
+.main__button {
+  width: 150px;
+  margin-top: 20px;
+  align-self: center;
+  position: absolute;
+  top: 75px;
+}
+.main__subtitle {
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+.inner__div {
+  margin-top: 125px;
+  position: relative; }
+
+.searching__button {
+  background-color: black;
+  width: 100px;
+  margin-left: 50px;
+}
+.header__title {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold }
+.main__input {
+  width: 375px;
+}
+.main__logo {
+  position: absolute;
+  left: calc(50vw - 281.5px);
+  top: 0;
+  margin-top: 10px;
+}
+.main__container-main {
+  margin-top: 200px;
+}
+.main__footer {
+  text-align: center;
+  letter-spacing: 0.1em;
+  border-bottom: 10px;
+}
+.wrong__smth {
+  margin-top: 15px;
+  margin-left: calc(50% - 100px);
+  background-image: url("http://gifimage.net/wp-content/uploads/2017/08/vincent-vega-gif-9.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  &-button {
+    width: 70px;
+    margin-left: calc(50% - 35px);
+  }
+}
+.main__div-holder {
+  transition: 1s all;
+}
+.example-appear {
+  opacity: 0.01;
+}
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
